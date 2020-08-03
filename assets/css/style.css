@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Caveat:wght@400;700&display=swap");
+
+body {
+  margin-top: 100px;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+#phone {
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    font-size: 50px;
+    background-color: #b29d6b;
+    border: none;
+    z-index:9999;
+}
+
+#phone:active {
+    background-color: #bebebe;
+}
+
+#phone:focus {
+    outline: none;
+}
+
+/*----------NavBar*/
+
+#logo-nav {
+  width: 75px;
+  height: 75px;
+}
+
+.navbar-color {
+  background-color: white;
+}
+
+.navbar-links {
+  font-family: "Cabin";
+  font-size: 25px;
+}
+
+.navbar-links > a {
+  color: #b29d6b;
+}
+
+.social-media-logo {
+  color: #bebebe;
+  font-size: 50px;
+  margin: 0 10px;
+}
+
+/*----------Hero*/
+
+.jumbotron {
+  background-color: white;
+  margin-bottom: 0;
+}
+
+.hero-image {
+  background-repeat: no-repeat;
+}
+
+/*----------Slider*/
+
+.slide {
+  max-height: 600px;
+}
+
+/*----------About*/
+
+.header {
+  margin-top: 50px;
+  font-family: "Cabin";
+}
+
+hr {
+  width: 25%;
+  height: 1px;
+  background-color: #b29d6b;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.page-button {
+  background-color: #b29d6b;
+  border: none;
+  font-family: "Cabin";
+  color: white;
+  margin: 25px;
+}
+
+.page-button:hover {
+  background-color: white;
+  border: none;
+  font-family: "Cabin";
+  color: #b29d6b;
+}
+
+.page-button:focus {
+  background-color: white;
+  border: none;
+  font-family: "Cabin";
+  color: #b29d6b;
+  box-shadow: none;
+}
+
+/*----------Menu*/
+
+#part-1 {
+  background: url("../images/menupic.jpg") fixed;
+  background-color: rgba(128, 128, 128, 0.3);
+  background-size: cover;
+  height: 100vh;
+}
+
+.wrapper-info {
+  border: 30px solid black;
+  border-image: url("../images/border.png") 100 round;
+  margin: 30px;
+  background: white;
+  height: 80vh;
+  font-family: "Cabin";
+}
+
+#part-2 {
+  background: url("../images/menupic.jpg") fixed;
+  background-color: rgba(128, 128, 128, 0.3);
+  background-size: cover;
+  height: 100vh;
+}
+
+h3 {
+  margin: 25px;
+}
+
+/*----------Book*/
+
+.book {
+  font-family: "Cabin";
+  text-align: center;
+}
+
+/*----------Contact*/
+
+.contact {
+  background-color: #bebebe;
+  background-size: 100%;
+}
+
+form {
+  margin: 0 25px;
+  border: none;
+  font-family: "Cabin";
+}
+
+.form-control:focus {
+  border-color: #b29d6b;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+/*----------Footer*/
+
+footer {
+    background-color: white;
+    height: 400px;
+}
+
+.row > img {
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "Cabin";
+    margin: 10px;
+}
+
+a:hover {
+    color: #b29d6b;
+    text-decoration: none;
+}
+
+span {
+    margin-top: 20px;
+    font-family: "Cabin";
+    color: black;
+}
+
+
+
