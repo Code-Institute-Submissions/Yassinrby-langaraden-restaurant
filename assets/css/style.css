@@ -9,30 +9,32 @@ body {
 }
 
 #phone {
-    position: fixed;
-    right: 20px;
-    bottom: 10px;
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-    font-size: 50px;
-    background-color: #b29d6b;
-    border: none;
-    z-index:9999;
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  font-size: 50px;
+  background-color: #b29d6b;
+  border: none;
+  z-index: 9999;
 }
 
 #phone:active {
-    background-color: #bebebe;
+  background-color: #bebebe;
 }
 
 #phone:focus {
-    outline: none;
+  outline: none;
 }
+/*-------------------------------------------------------------HOMEAGE*/
+
 
 /*----------NavBar*/
 
 .navbar-toggler-icon {
-    margin: 0;
+  margin: 0;
 }
 
 #logo-nav {
@@ -54,15 +56,15 @@ body {
 }
 
 .navbar-links > a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .navbar-links > a:active {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .navbar-links > a:focus {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .social-media-logo {
@@ -136,12 +138,14 @@ hr {
 }
 
 .wrapper-info {
-  border: 30px solid black;
-  border-image: url("../images/border.png") 100 round;
+  border: 50px solid black;
+  border-image: url("../images/border.png") 200 stretch;
   margin: 30px;
-  background: white;
+  background: whitesmoke;
+  background-clip: padding-box;
   height: 80vh;
   font-family: "Cabin";
+  overflow: auto;
 }
 
 #part-2 {
@@ -184,31 +188,43 @@ form {
 /*----------Footer*/
 
 footer {
-    background-color: white;
-    height: 400px;
+  background-color: white;
+  height: 400px;
 }
 
 .row > img {
-    margin: 20px;
+  margin: 20px;
 }
 
 a {
-    text-decoration: none;
-    color: black;
-    font-family: "Cabin";
-    margin: 10px;
+  text-decoration: none;
+  color: black;
+  font-family: "Cabin";
+  margin: 10px;
 }
 
 a:hover {
-    color: #b29d6b;
-    text-decoration: none;
+  color: #b29d6b;
+  text-decoration: none;
 }
 
 span {
-    margin-top: 20px;
-    font-family: "Cabin";
-    color: black;
+  margin-top: 20px;
+  font-family: "Cabin";
+  color: black;
 }
 
 
+/*-------------------------------------------------------------MENUPAGE*/
 
+/*-------Menu*/
+
+.menu {
+    background-color: whitesmoke;
+    border: 20px solid transparent;
+    border-image: url("../images/meuframe.png") 200 stretch;
+    height: 900px;
+    text-align: center;
+    margin: 5px;
+    
+}
