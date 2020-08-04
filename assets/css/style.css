@@ -31,6 +31,10 @@ body {
 
 /*----------NavBar*/
 
+.navbar-toggler-icon {
+    margin: 0;
+}
+
 #logo-nav {
   width: 75px;
   height: 75px;
@@ -47,6 +51,18 @@ body {
 
 .navbar-links > a {
   color: #b29d6b;
+}
+
+.navbar-links > a:hover {
+    text-decoration: underline;
+}
+
+.navbar-links > a:active {
+    text-decoration: underline;
+}
+
+.navbar-links > a:focus {
+    text-decoration: underline;
 }
 
 .social-media-logo {
