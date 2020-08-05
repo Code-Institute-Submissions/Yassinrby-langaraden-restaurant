@@ -72,86 +72,101 @@
         />
       </div>
     </div>
-    <!--Menu-header-->
     <div class="container">
       <div class="row">
         <div class="col text-center">
-          <h1>Menyer</h1>
-          <hr />
-          <h5>Bordsbokning på kvällen</h5>
-          <p>
-            För att vara säker på att få ett bord så vill vi att alla bokar bord
-            till middagen.
-          </p>
-          <a class="btn btn-primary page-button btn-lg" href="#" role="button"
-            >Boka bord</a
-          >
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 menu-text text-center">
-          <h2>Lunchmeny</h2>
-          <h5>Tisdag - Lördag</h5>
-          <p>11:30 - 16:00</p>
-          <p><i>Köket stänger 15:00</i></p>
-          <div class="menu"></div>
-        </div>
-        <div class="col-md-6 menu-text text-center">
-          <h2>Kvällsmeny</h2>
-          <p>17:00 - 22:00</p>
-          <p>
-            <i
-              >Köket stänger 21.00
-              <strong
-                >(är det inget bord bokat efter kl. 20.00 så stänger vi
-                tidigare)</strong
-              ></i
-            >
-          </p>
-          <div class="menu"></div>
-        </div>
-      </div>
-    </div>
-    <!--Menu Event-->
-    <div class="container">
-      <div class="row">
-        <div class="col text-center">
-          <h1>Menyer för Evenemang</h1>
+          <h1>Boka</h1>
           <hr />
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-4 ext-menu text-center">
-          <h4 >Bröllop</h4>
-          <p>textextexttextextexttextextexttextextext</p>
-          <a href="">Ladda ner meny</a>
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Vad vill du boka?</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Bord</option>
+                <option>Evenemang</option>
+                <option>Möte</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">E-post</label>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="E-postadress"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Namn</label>
+              <input
+                type="name"
+                class="form-control"
+                placeholder="Fullständigt namn"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Nummer</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Telefonnummer"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Antal personer</label>
+              <input
+                type="number"
+                class="form-control"
+                placeholder="Antal"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1"
+                >Något du vill tillägga?</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <div class="text-center">
+              <input
+                class="btn btn-primary page-button btn-lg"
+                type="submit"
+                value="Boka"
+              />
+            </div>
+          </form>
         </div>
-        <div class="col-sm-4 ext-menu text-center">
-          <h4 >Fest</h4>
-          <p>textextexttextextexttextextexttextextext</p>
-          <a href="">Ladda ner meny</a>
-        </div>
-        <div class="col-sm-4 ext-menu text-center">
-          <h4 >Fest</h4>
-          <p>textextexttextextexttextextexttextextext</p>
-          <a href="">Ladda ner meny</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4 ext-menu text-center">
-          <h4 >Bröllop</h4>
-          <p>textextexttextextexttextextexttextextext</p>
-          <a href="">Ladda ner meny</a>
-        </div>
-        <div class="col-sm-4 ext-menu text-center">
-          <h4 >Fest</h4>
-          <p>textextexttextextexttextextexttextextext</p>
-          <a href="">Ladda ner meny</a>
-        </div>
-        <div class="col-sm-4 ext-menu text-center">
-          <h4 >Fest</h4>
-          <p>textextexttextextexttextextexttextextext</p>
-          <a href="">Ladda ner meny</a>
+        <div class="col-md-6 find">
+          <h3>Hitta hit</h3>
+          <h5>Bil</h5>
+          <p>
+            Tag Värmdöleden (222) och tag av c:a 1 km efter Skurusundet och kör
+            mot Orminge. Sväng av till höger mot Gustavsberg och kör gamla
+            Värmdövägen. Efter c:a 2 - 3 km, sväng vänster mot Velamsund. Följ
+            vägen c:a 1,5 km, framme!
+          </p>
+          <h5>Båt</h5>
+          <p>
+            Welamsund - Långa raden ligger längst in i Velamsundsviken längs
+            innanför Tegelön längs farleden till och från Stockholm. Gästbrygga
+            finns.
+          </p>
+          <h5>Buss</h5>
+          <p>
+            Tag 422 eller 445(mot Insjön) från Slussen till stationen Kihls gård
+            och gå mot Velamsund.
+          </p>
+          <hr>
         </div>
       </div>
     </div>

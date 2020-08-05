@@ -28,6 +28,11 @@ body {
 #phone:focus {
   outline: none;
 }
+
+h1 {
+    margin-top: 30px;
+    font-family: "Cabin";
+}
 /*-------------------------------------------------------------HOMEAGE*/
 
 
@@ -227,4 +232,26 @@ span {
     text-align: center;
     margin: 5px;
     
+}
+
+.menu-text {
+    font-family: "Cabin";
+
+} 
+
+.ext-menu {
+    margin:20px 0;
+    font-family: "Cabin";
+}
+
+.submit-btn {
+    background-color: #b29d6b;
+}
+
+.find {
+    font-family: "Cabin";
+}
+
+.find > h3 {
+    margin: 0;
 }
