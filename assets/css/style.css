@@ -107,7 +107,8 @@ hr {
   height: 1px;
   background-color: #b29d6b;
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
+
 }
 
 .page-button {
@@ -253,5 +254,19 @@ span {
 }
 
 .find > h3 {
-    margin: 0;
+    margin: 25px 0;
+}
+
+/*-------------------------------------------------------------Contactpage*/
+
+.details {
+    font-family: "Cabin";
+}
+
+.details > h4 {
+    margin-bottom: 20px;
+}
+
+.key {
+    font-weight: 800;
 }
