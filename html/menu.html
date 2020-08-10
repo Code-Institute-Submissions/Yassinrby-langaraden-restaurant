@@ -18,13 +18,19 @@
     />
     <link rel="stylesheet" href="../assets/css/style.css" />
     <title>Långa Raden Welamsund</title>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
   </head>
+
   <body>
     <button id="phone" onclick="myFunction()">
       <i class="fa fa-phone" aria-hidden="true"></i>
     </button>
     <a href="tel:08-747 99 80">
-    <button id="phone1">08-747 99 80</button>
+      <button id="phone1">08-747 99 80</button>
     </a>
     <!--NavBar-->
 
@@ -45,22 +51,22 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav mx-auto navbar-links">
-          <a class="nav-item nav-link active" href="#"
+          <a class="nav-item nav-link" href="home.html"
             >Hem<span class="sr-only">(current)</span></a
           >
-          <a class="nav-item nav-link" href="#">Meny </a>
-          <a class="nav-item nav-link" href="#">Boka </a>
-          <a class="nav-item nav-link" href="#">Kontakt </a>
-          <a class="nav-item nav-link" href="#">Helgkassen </a>
+          <a class="nav-item nav-link" href="menu.html">Meny </a>
+          <a class="nav-item nav-link" href="book.html">Boka </a>
+          <a class="nav-item nav-link" href="contact.html">Kontakt </a>
+          <a class="nav-item nav-link" href="delivery.html">Helgkassen </a>
         </div>
 
-        <a href=""
+        <a href="https://www.facebook.com/langaraden" target="_blank"
           ><i
             class="fa fa-facebook-square social-media-logo"
             aria-hidden="true"
           ></i
         ></a>
-        <a href=""
+        <a href="https://www.instagram.com/restauranglangaraden/" target="_blank"
           ><i class="fa fa-instagram social-media-logo" aria-hidden="true"></i
         ></a>
       </div>
@@ -97,21 +103,224 @@
           <h5>Tisdag - Lördag</h5>
           <p>11:30 - 16:00</p>
           <p><i>Köket stänger 15:00</i></p>
-          <div class="menu"></div>
+          <h5>Anpassa menyn utefter dina behov:</h5>
+          <button id="lunch-btn-veg" class="menu-button">Vegeterian</button>
+          <button id="lunch-btn-fish" class="menu-button">Fisk</button>
+          <button id="lunch-btn-meat" class="menu-button">Kött</button>
+          <p class="extra">
+            HAR DU ALLERGIER ELLER FRÅGOR OM VÅRA INGREDIENSER, FRÅGA GÄRNA VÅR
+            PERSONAL
+          </p>
+          <div class="lunch-menu text-center">
+            <h5>Förrätter</h5>
+            <div class="veg-lunch">
+              <p class="title">
+                Welamsunds Gubbröra - 125 kr <br />
+
+                <span
+                  ><i>
+                    på kavring med västerbottensost, brynt smör, picklad
+                    rödlök</i
+                  ></span
+                >
+              </p>
+            </div>
+            <p>*</p>
+            <div class="fish-lunch">
+              <p class="title">
+                Skagen på handskalade räkor - 155 kr<br />
+                <span><i> smörstekt toast och löjrom</i></span>
+              </p>
+            </div>
+            <h5>Varmrätter</h5>
+            <div class="veg-lunch">
+              <p class="title">
+                Bakad spetskål - 179 kr <br />
+                <span
+                  ><i>
+                    brynt smörvinägrett, rostad blomkålskräm, puylinser,
+                    potatisklyftor, och hasselnötter</i
+                  ></span
+                >
+              </p>
+            </div>
+            <p>*</p>
+            <div class="meat-lunch">
+              <p class="title">
+                Burgare på soja-honungsglaserad långbakad kalvhögrev - 189 kr
+                <br />
+
+                <span>
+                  <i>
+                    tryffelmajo, picklad rödlök, rostad lök, tomat, saltgurka,
+                    sallad och pommes</i
+                  ></span
+                >
+              </p>
+            </div>
+            <p>*</p>
+            <div class="meat-lunch">
+              <p class="title">
+                Welamsunds Caesarsallad - 169 kr<br />
+
+                <span
+                  ><i>
+                    gårdskyckling, romansallad, bacon, parmesanost och
+                    kavringskrutonger
+                  </i></span
+                >
+              </p>
+            </div>
+            <p>*</p>
+            <div class="fish-lunch">
+              <p class="title">
+                Varmrökt lax - 189 kr <br />
+                <span
+                  ><i> färskpotatis, krämig senap-honungssås, sallad</i></span
+                >
+              </p>
+            </div>
+            <h5>Barn upp till 10 år</h5>
+            <div class="meat-lunch">
+              <p class="title">Köttfärssås och pasta - 79 kr</p>
+            </div>
+            <p>*</p>
+            <div class="veg-lunch">
+              <p class="title">Pannkakor med sylt och grädde - 69 kr</p>
+            </div>
+          </div>
         </div>
         <div class="col-md-6 menu-text text-center">
           <h2>Kvällsmeny</h2>
+          <h5>Måndag - Söndag</h5>
           <p>17:00 - 22:00</p>
           <p>
-            <i
-              >Köket stänger 21.00
-              <strong
-                >(är det inget bord bokat efter kl. 20.00 så stänger vi
-                tidigare)</strong
-              ></i
-            >
+            <i>Köket stänger 21.00 </i>
           </p>
-          <div class="menu"></div>
+          <h5>Anpassa menyn utefter dina behov:</h5>
+          <button id="dinner-btn-veg" class="menu-button">Vegeterian</button>
+          <button id="dinner-btn-fish" class="menu-button">Fisk</button>
+          <button id="dinner-btn-meat" class="menu-button">Kött</button>
+          <p class="extra">
+            HAR DU ALLERGIER ELLER FRÅGOR OM VÅRA INGREDIENSER, FRÅGA GÄRNA VÅR
+            PERSONAL
+          </p>
+          <div class="dinner-menu text-center">
+            <h5>Förrätter</h5>
+            <div class="veg-dinner">
+              <p class="title">
+                Welamsunds Gubbröra - 125 kr <br />
+
+                <span
+                  ><i>
+                    på kavring med västerbottensost, brynt smör, picklad
+                    rödlök</i
+                  ></span
+                >
+              </p>
+            </div>
+            <p>*</p>
+            <div class="fish-dinner">
+              <p class="title">
+                Skagen på handskalade räkor - 155 kr<br />
+                <span><i> smörstekt toast och löjrom</i></span>
+              </p>
+            </div>
+            <p>*</p>
+            <div class="veg-dinner">
+              <p class="title">
+                Welamsunds “Caprese” - 165 kr<br />
+
+                <span><i> Burrata, Karintorps Tomater, basilika </i></span>
+              </p>
+            </div>
+            <p>*</p>
+            <h5>Varmrätter</h5>
+            <div class="veg-dinner">
+              <p class="title">
+                Bakad spetskål - 179 kr <br />
+                <span
+                  ><i>
+                    brynt smörvinägrett, rostad blomkålskräm, puylinser,
+                    potatisklyftor, och hasselnötter</i
+                  ></span
+                >
+              </p>
+            </div>
+            <p>*</p>
+            <div class="meat-dinner">
+              <p class="title">
+                Burgare på soja-honungsglaserad långbakad kalvhögrev - 189 kr
+                <br />
+
+                <span>
+                  <i>
+                    tryffelmajo, picklad rödlök, rostad lök, tomat, saltgurka,
+                    sallad och pommes</i
+                  ></span
+                >
+              </p>
+            </div>
+            <p>*</p>
+            <div class="meat-dinner">
+              <p class="title">
+                Welamsunds Caesarsallad - 169 kr<br />
+
+                <span
+                  ><i>
+                    gårdskyckling, romansallad, bacon, parmesanost och
+                    kavringskrutonger
+                  </i></span
+                >
+              </p>
+            </div>
+            <p>*</p>
+            <div class="fish-dinner">
+              <p class="title">
+                Dillbakad rödingfilé - 265 kr<br />
+
+                <span
+                  ><i> citronkräm, löjrom, spenat och färskpotatis </i></span
+                >
+              </p>
+            </div>
+            <p>*</p>
+            <div class="meat-dinner">
+              <p class="title">
+                Lågtempererad biffrad - 265 kr<br />
+
+                <span
+                  ><i>
+                    bearnaise, potatisklyftor, tomatsallad på karintorps tomater
+                    och basilika
+                  </i></span
+                >
+              </p>
+            </div>
+
+            <h5>Desserter</h5>
+            <p class="title">
+              Chokladbakelse - 115 kr <br />
+              <span><i>med havtorn och vispad grädde</i></span>
+            </p>
+            <p>*</p>
+            <p class="title">
+              Lime Cheesecake i glas - 105 kr <br />
+              <span
+                ><i>
+                  limefärskost, citroncurd, digestive, rårörda hallon
+                </i></span
+              >
+            </p>
+            <h5>Barn upp till 10 år</h5>
+            <div class="meat-dinner">
+              <p class="title">Köttfärssås och pasta - 79 kr</p>
+            </div>
+            <p>*</p>
+            <div class="veg-dinner">
+              <p class="title">Pannkakor med sylt och grädde - 69 kr</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -125,36 +334,35 @@
       </div>
       <div class="row">
         <div class="col-sm-4 ext-menu text-center">
-          <h4 >Bröllop</h4>
-          <p>textextexttextextexttextextexttextextext</p>
-          <a href="">Ladda ner meny</a>
+          <h4>Bröllop</h4>
+          <p>3-rätter Sommar</p>
+          <a href="../assets/files/fil1.pdf" target="_blank">Ladda ner meny</a>
         </div>
         <div class="col-sm-4 ext-menu text-center">
-          <h4 >Fest</h4>
-          <p>textextexttextextexttextextexttextextext</p>
-          <a href="">Ladda ner meny</a>
+          <h4>Fest</h4>
+            <p>3-rätter Sommar</p>
+          <a href="../assets/files/fil2.pdf" target="_blank">Ladda ner meny</a>
         </div>
         <div class="col-sm-4 ext-menu text-center">
-          <h4 >Fest</h4>
-          <p>textextexttextextexttextextexttextextext</p>
-          <a href="">Ladda ner meny</a>
+          <h4>Minnestund</h4>
+
+          <a href="../assets/files/fil5.pdf" target="_blank">Ladda ner meny</a>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-4 ext-menu text-center">
-          <h4 >Bröllop</h4>
-          <p>textextexttextextexttextextexttextextext</p>
-          <a href="">Ladda ner meny</a>
+          <h4>Konferens</h4>
+
+          <a href="../assets/files/fil3.pdf" target="_blank">Ladda ner meny</a>
         </div>
         <div class="col-sm-4 ext-menu text-center">
-          <h4 >Fest</h4>
-          <p>textextexttextextexttextextexttextextext</p>
-          <a href="">Ladda ner meny</a>
+          <h4>Namngivning</h4>
+
+          <a href="../assets/files/fil4.pdf" target="_blank">Ladda ner meny</a>
         </div>
         <div class="col-sm-4 ext-menu text-center">
-          <h4 >Fest</h4>
-          <p>textextexttextextexttextextexttextextext</p>
-          <a href="">Ladda ner meny</a>
+          <h4>Catering</h4>
+          <a href="../assets/files/fil5.pdf" target="_blank">Ladda ner meny</a>
         </div>
       </div>
     </div>
@@ -165,17 +373,17 @@
         <img src="../assets/logos/lrlogo1.jpg" class="mx-auto" />
       </div>
       <div class="row justify-content-center">
-        <a href="">Om Oss</a>
-        <a href="">Jobba hos oss</a>
+        <a href="about.html">Om Oss</a>
+        <a href="work.html">Jobba hos oss</a>
       </div>
       <div class="row justify-content-center">
-        <a href=""
+        <a href="https://www.facebook.com/langaraden" target="_blank"
           ><i
             class="fa fa-facebook-square social-media-logo"
             aria-hidden="true"
           ></i
         ></a>
-        <a href=""
+        <a href="https://www.instagram.com/restauranglangaraden/" target="_blank"
           ><i class="fa fa-instagram social-media-logo" aria-hidden="true"></i
         ></a>
       </div>
@@ -183,8 +391,8 @@
         <span>Velamsundsvägen 37 - 132 36 Saltsjö-boo</span>
       </div>
     </footer>
-    <script src="../button.js">
-    </script>
+    <script src="../buttons.js"></script>
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

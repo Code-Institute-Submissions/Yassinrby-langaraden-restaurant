@@ -18,13 +18,18 @@
     />
     <link rel="stylesheet" href="../assets/css/style.css" />
     <title>Långa Raden Welamsund</title>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <button id="phone" onclick="myFunction()">
       <i class="fa fa-phone" aria-hidden="true"></i>
     </button>
     <a href="tel:08-747 99 80">
-    <button id="phone1">08-747 99 80</button>
+      <button id="phone1">08-747 99 80</button>
     </a>
     <!--NavBar-->
 
@@ -45,22 +50,24 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav mx-auto navbar-links">
-          <a class="nav-item nav-link active" href="#"
+          <a class="nav-item nav-link" href="home.html"
             >Hem<span class="sr-only">(current)</span></a
           >
-          <a class="nav-item nav-link" href="#">Meny </a>
-          <a class="nav-item nav-link" href="#">Boka </a>
-          <a class="nav-item nav-link" href="#">Kontakt </a>
-          <a class="nav-item nav-link" href="#">Helgkassen </a>
+          <a class="nav-item nav-link" href="menu.html">Meny </a>
+          <a class="nav-item nav-link" href="book.html">Boka </a>
+          <a class="nav-item nav-link" href="contact.html">Kontakt </a>
+          <a class="nav-item nav-link" href="delivery.html">Helgkassen </a>
         </div>
 
-        <a href=""
+        <a href="https://www.facebook.com/langaraden" target="_blank"
           ><i
             class="fa fa-facebook-square social-media-logo"
             aria-hidden="true"
           ></i
         ></a>
-        <a href=""
+        <a
+          href="https://www.instagram.com/restauranglangaraden/"
+          target="_blank"
           ><i class="fa fa-instagram social-media-logo" aria-hidden="true"></i
         ></a>
       </div>
@@ -83,31 +90,80 @@
         </div>
       </div>
       <div class="row">
-      <div class="col text-center">
-        <h4><strong>Nu är det dags för vår härliga helgkasse!</strong></h4>
-        <br>
-         <p>Denna veckas kasse levereras/hämtas på Fredag & Lördag.</p><br><p> Rätterna är
-          helt klara. Det enda ni behöver göra är att värma de rätter som skall
-          vara varma och lägga upp. Instruktioner följer med i påsen.</p> <br> <p> Ni
-          beställer senast <strong> kl 14.00 på onsdagen </strong>och hämtar kassen här fredag
-          eller lördag mellan 16.00 - 17.00. Pga begränsat antal kassar så
-          skickar vi en bekräftelse att beställningen har gått igenom. Det går
-          även bra att beställa via telefon 08-747 99 80 mellan 9.00 - 11.00
-          eller 15.00 - 17.00. Minimibeställning på totalt 598 kr.</p> <br> <p>Vi kan
-          leverera kassen kostnadsfritt till postnummerområde 132 37. Den
-          levereras på fredag och lördag mellan 16.00 - 18.00 och betalas vid
-          leverans swish. Är ni inte hemma och ni vill att vi lämnar kassen på
-          angiven plats så önskar vi att ni betalar med swish i förskott.</p> <br>
-         <p><i> Smaklig spis önskar Therese & Mattias</i></p> 
-        
+        <div class="col text-center">
+          <h4><strong>Nu är det dags för vår härliga helgkasse!</strong></h4>
+          <br />
+          <p>Denna veckas kasse levereras/hämtas på Fredag & Lördag.</p>
+          <br />
+          <p>
+            Rätterna är helt klara. Det enda ni behöver göra är att värma de
+            rätter som skall vara varma och lägga upp. Instruktioner följer med
+            i påsen.
+          </p>
+          <br />
+          <p>
+            Ni beställer senast <strong> kl 14.00 på onsdagen </strong>och
+            hämtar kassen här fredag eller lördag mellan 16.00 - 17.00. Pga
+            begränsat antal kassar så skickar vi en bekräftelse att
+            beställningen har gått igenom. Det går även bra att beställa via
+            telefon 08-747 99 80 mellan 9.00 - 11.00 eller 15.00 - 17.00.
+            Minimibeställning på totalt 598 kr.
+          </p>
+          <br />
+          <p>
+            Vi kan leverera kassen kostnadsfritt till postnummerområde 132 37.
+            Den levereras på fredag och lördag mellan 16.00 - 18.00 och betalas
+            vid leverans swish. Är ni inte hemma och ni vill att vi lämnar
+            kassen på angiven plats så önskar vi att ni betalar med swish i
+            förskott.
+          </p>
+          <br />
+          <p><i> Smaklig spis önskar Therese & Mattias</i></p>
+        </div>
       </div>
-      </div>
-      <hr>
+      <hr />
       <div class="row">
-      <div class="col-sm-6 menu"></div>
-      <div class="col-sm-6">
-      <form>
-      <div class="form-group">
+        <div class="col-sm-6 delivery-menu">
+          <h2>Helgkassen</h2>
+          <p>Förbeställs och hämtas fredag eller lördag</p>
+          <h4>Förrätt</h4>
+          <p>
+            Handskalade räkor i limemajonnäs på kavring med picklad rödlök och
+            krasse
+          </p>
+          <h4>Varmrätt</h4>
+          <p>
+            Bara att lägga på grillen och mönstra. Eller värm i ugnen. Det är
+            redan klart
+          </p>
+          
+          <p>Lågtempererad Timjanbakad biffrad</p>
+
+          <p>eller</p>
+
+          <p>Timjanbakad gulbeta</p>
+          <h4>Tillbehör</h4>
+          <p>
+            Karintorp tomater & fetaostsallad <br />
+            Rostad blomkål-vitlökskräm <br />
+            Ramslökssmör <br />
+            Paprika-chilisalsa med kummin <br />
+            Stora bakpotatisklyftor
+          </p>
+          <h4>Dessert</h4>
+          <p>Citrontartelette med bränd italiensk maräng och rårörda hallon</p>
+          <h4>3 rätter 299 kr per person</h4>
+          <br>
+          <h4>Barn</h4>
+          <p><i>upp till 10 år</i></p>
+          <p><strong>Varmrätt & Dessert</strong></p>
+          <p>110 kr</p>
+          <h4>Ni kan även beställa från lunchmenyn</h4>
+          <span>Obs! Minsta beställningsvärde är 598 kr </span>
+        </div>
+        <div class="col-sm-6">
+          <form>
+            <div class="form-group">
               <label for="exampleFormControlInput1">Adress</label>
               <input
                 type="name"
@@ -117,14 +173,18 @@
               />
             </div>
             <div class="row">
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Postnummer">
-    </div>
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Stad">
-    </div>
-  </div>
-            <br>
+              <div class="col">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Postnummer"
+                />
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Stad" />
+              </div>
+            </div>
+            <br />
             <div class="form-group">
               <label for="exampleFormControlInput1">E-post</label>
               <input
@@ -153,19 +213,35 @@
               />
             </div>
             <label for="exampleFormControlInput1">Leveransdag</label>
-            <br>
+            <br />
             <div class="form-check form-check-inline">
-  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-  <label class="form-check-label" for="inlineCheckbox1">Fredag</label>
-</div>
-<div class="form-check form-check-inline">
-  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-  <label class="form-check-label" for="inlineCheckbox2">Lördag</label>
-</div>
-<br>
-<br>
-<div class="form-group">
-              <label for="exampleFormControlInput1">Antal 3 rätter med köttvarmrätt á 299 kr pp.</label>
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="inlineCheckbox1"
+                value="option1"
+              />
+              <label class="form-check-label" for="inlineCheckbox1"
+                >Fredag</label
+              >
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="inlineCheckbox2"
+                value="option2"
+              />
+              <label class="form-check-label" for="inlineCheckbox2"
+                >Lördag</label
+              >
+            </div>
+            <br />
+            <br />
+            <div class="form-group">
+              <label for="exampleFormControlInput1"
+                >Antal 3 rätter med köttvarmrätt á 299 kr pp.</label
+              >
               <input
                 type="number"
                 class="form-control"
@@ -174,9 +250,9 @@
               />
             </div>
             <div class="form-group">
-              <label for="exampleFormControlInput1">Antal 3 rätter med vegetarisk varmrätt á 299 kr pp.
- 
-</label>
+              <label for="exampleFormControlInput1"
+                >Antal 3 rätter med vegetarisk varmrätt á 299 kr pp.
+              </label>
               <input
                 type="number"
                 class="form-control"
@@ -185,7 +261,9 @@
               />
             </div>
             <div class="form-group">
-              <label for="exampleFormControlInput1">Antal Barnrätt med köttvarmrätt á 110 kr</label>
+              <label for="exampleFormControlInput1"
+                >Antal Barnrätt med köttvarmrätt á 110 kr</label
+              >
               <input
                 type="number"
                 class="form-control"
@@ -194,7 +272,9 @@
               />
             </div>
             <div class="form-group">
-              <label for="exampleFormControlInput1">Antal Barnrätt med vegetarisk varmrätt á 110 kr</label>
+              <label for="exampleFormControlInput1"
+                >Antal Barnrätt med vegetarisk varmrätt á 110 kr</label
+              >
               <input
                 type="number"
                 class="form-control"
@@ -221,7 +301,7 @@
               />
             </div>
           </form>
-      </div>
+        </div>
       </div>
     </div>
     <!--Footer-->
@@ -231,17 +311,19 @@
         <img src="../assets/logos/lrlogo1.jpg" class="mx-auto" />
       </div>
       <div class="row justify-content-center">
-        <a href="">Om Oss</a>
-        <a href="">Jobba hos oss</a>
+        <a href="about.html">Om Oss</a>
+        <a href="work.html">Jobba hos oss</a>
       </div>
       <div class="row justify-content-center">
-        <a href=""
+        <a href="https://www.facebook.com/langaraden" target="_blank"
           ><i
             class="fa fa-facebook-square social-media-logo"
             aria-hidden="true"
           ></i
         ></a>
-        <a href=""
+        <a
+          href="https://www.instagram.com/restauranglangaraden/"
+          target="_blank"
           ><i class="fa fa-instagram social-media-logo" aria-hidden="true"></i
         ></a>
       </div>
@@ -249,8 +331,7 @@
         <span>Velamsundsvägen 37 - 132 36 Saltsjö-boo</span>
       </div>
     </footer>
-    <script src="../button.js">
-    </script>
+    <script src="../buttons.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
