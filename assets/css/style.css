@@ -369,3 +369,10 @@ margin-top: 20px;
   position: relative;
   filter: grayscale(100%);
 }
+
+/*-------------------------------------------------------------Google maps*/
+
+#map {
+    height: 300px;
+    width: 100%;
+}
