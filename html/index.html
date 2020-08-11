@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Bootstrap CSS / Fontawsome-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <title>Långa Raden Welamsund</title>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <button id="phone" onclick="myFunction()">
+      <i
+        data-toggle="tooltip"
+        data-placement="left"
+        title="Klicka för att se Telefonnummer"
+        class="fa fa-phone"
+        aria-hidden="true"
+      ></i>
+    </button>
+    <a id="phone1" href="tel:087479980">
+      08-747 99 80
+    </a>
+    <!--NavBar-->
+
+    <nav class="navbar navbar-expand-lg navbar-color fixed-top">
+      <a class="navbar-brand" href="https://www.langaraden.se/">
+        <img id="logo-nav" src="../assets/logos/lrlogo3.png" alt="logo" />
+      </a>
+      <button
+        class="navbar-toggler navbar-light"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mx-auto navbar-links">
+          <a class="nav-item nav-link" href="home.html"
+            >Hem<span class="sr-only">(current)</span></a
+          >
+          <a class="nav-item nav-link" href="menu.html">Meny </a>
+          <a class="nav-item nav-link" href="book.html">Boka </a>
+          <a class="nav-item nav-link" href="contact.html">Kontakt </a>
+          <a class="nav-item nav-link" href="delivery.html">Helgkassen </a>
+        </div>
+
+        <a href="https://www.facebook.com/langaraden" target="_blank"
+          ><i
+            class="fa fa-facebook-square social-media-logo"
+            aria-hidden="true"
+          ></i
+        ></a>
+        <a
+          href="https://www.instagram.com/restauranglangaraden/"
+          target="_blank"
+          ><i class="fa fa-instagram social-media-logo" aria-hidden="true"></i
+        ></a>
+      </div>
+    </nav>
+    <!--Jumbotron-->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="text-center col-md">
+        <img
+          src="../assets/logos/lrlogo2.png"
+          class="img-fluid hero-image"
+          alt="Responsive image"
+        />
+      </div>
+    </div>
+    <!--Slider-->
+    <div class="container-fluid">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner slide">
+          <div class="carousel-item slide1 active"></div>
+          <div class="carousel-item slide2"></div>
+          <div class="carousel-item slide3"></div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!--About-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md text-center">
+          <h1 class="header">Långa Raden Welamsund</h1>
+
+          <hr />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p>
+            Boka ditt nästa evenemang i Welamsund- Långa radens vackra lokaler
+            som ligger vid vattnet längst in i Velamsundsviken, Saltsjö-Boo /
+            Nacka. I Velamsunds naturreservat och friluftsområde finns även
+            stora öppna gräsytor för aktiviteter, löpspår, utegym, ett insjöbad
+            där det på vintern är plogat en skridskobana runt sjön. Även nära
+            till Nacka golfklubb. Sommarfest med båttur till oss eller en vinter
+            kick-off med skridskoåkning på insjön strax intill. Byggnaden från
+            1700-talet är herrgårdsområdet Velamsunds äldsta och är belägen c:a
+            20 minuters bilresa från centrala Stockholm, alternativt c:a 40
+            minuters båtresa. Möten, bröllop, företags kick-off, mingelfest,
+            grillfest, event, konsert Gästbrygga, kajplats för taxibåt/ fartyg
+            och bilparkering finns. Behöver du transport eller underhållning
+            hjälper vi dig att ordna detta. Välkomna till oss! - Landet vid
+            havet nära stan.
+          </p>
+        </div>
+      </div>
+      <div class="text-center">
+        <a
+          class="btn btn-primary page-button btn-lg"
+          href="about.html"
+          role="button"
+          >Läs Mer</a
+        >
+      </div>
+    </div>
+    <!--Menu-->
+    <div class="container-fluid">
+      <div id="part-1">
+        <div class="row">
+          <div class="col-md-6 text-center wrapper-info">
+            <h3>Meny</h3>
+            <p>
+              En restaurangmeny, även kallad meny och matsedel, är en lista över
+              vilka maträtter och drycker en restaurang har att erbjuda och till
+              vilket pris. Vid sidan av den egentliga fasta menyn förekommer
+              ofta erbjudanden som växlar från dag till dag eller för en kortare
+              tid.
+            </p>
+
+            <a
+              class="btn btn-primary page-button btn-lg"
+              href="menu.html"
+              role="button"
+              >Menyer</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div id="part-2">
+        <div class="row justify-content-end">
+          <div class="col-md-6 text-center wrapper-info">
+            <h3>Helgkassen</h3>
+            <p>
+              Rätterna är helt klara. Det enda ni behöver göra är att värma de
+              rätter som skall vara varma och lägga upp. Instruktioner följer
+              med i påsen. Ni beställer senast kl 14.00 på onsdagen och hämtar
+              kassen här fredag eller lördag mellan 16.00 - 17.00. Pga begränsat
+              antal kassar så skickar vi en bekräftelse att beställningen har
+              gått igenom. Det går även bra att beställa via telefon 08-747 99
+              80 mellan 9.00 - 11.00 eller 15.00 - 17.00. Minimibeställning på
+              totalt 598 kr. Vi kan leverera kassen kostnadsfritt till
+              postnummerområde 132 37. Den levereras på fredag och lördag mellan
+              16.00 - 18.00 och betalas vid leverans swish.
+            </p>
+
+            <a
+              class="btn btn-primary page-button btn-lg"
+              href="delivery.html"
+              role="button"
+              >Beställ</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Book-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md text-center">
+          <h1 class="header">Boka</h1>
+          <hr />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 book">
+          <h3>Bord</h3>
+          <p>
+            För att göra en bokning på Långa Raden använder du dig enklast av
+            onlinebokningstjänsten nedan. Ring oss annars på 08-7479980 eller
+            skicka ett mail med din bokningsförfrågan till hej@langaraden.se så
+            svarar vi så snart vi kan. Om ni är fler än sju personer, gör gärna
+            en bokningsförfrågan, så hör vi av oss så snart vi kan. Vi ser fram
+            emot ert besök.
+          </p>
+        </div>
+        <div class="col-md-4 book">
+          <h3>Evenemang</h3>
+          <p>
+            Jubileum, födelsedagar, dop, eller varför inte bara en helt vanlig,
+            härlig fest? När det är dags behöver du bara bestämma hur många
+            gäster du vill ha. På Lång raden har vi rätt lokal för festen,
+            precis intill havet. Vi föreslår menyer och rekommenderar
+            dryckespaket som passar till maten. Kanske börja festen med en
+            klassisk 5-kamp i herrgårdsparken strax intill?!
+          </p>
+        </div>
+        <div class="col-md-4 book">
+          <h3>Möte</h3>
+          <p>
+            Velamsund är som gjort för Walk and talk: Som alla vet så är rörelse
+            bra för kreativiteten. Dela upp gruppen i hälften var av den ena
+            halva går ut på walk and talk ang. ett specifikt ämne, och den andra
+            halvan är kvar i konferensrummet för att efter halva tiden byta
+            plats och den andra gruppen går ut. Det krävs inget extra förutom
+            ett par skor och fördelarna är många. Mötena blir effektiva, ni får
+            frisk luft, och förbättrad kondition.
+          </p>
+        </div>
+      </div>
+      <div class="text-center">
+        <a
+          class="btn btn-primary page-button btn-lg"
+          href="book.html"
+          role="button"
+          >Boka</a
+        >
+      </div>
+    </div>
+    <!--Contact-->
+    <div class="container-fluid contact">
+      <div class="row">
+        <div class="col-md text-center">
+          <h1 class="header">Kontakta Oss</h1>
+          <hr />
+        </div>
+      </div>
+      <form>
+        <input
+          type="text"
+          name="name"
+          id="fullname"
+          class="form-control"
+          placeholder="Namn"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          id="emailadress"
+          class="form-control"
+          placeholder="E-post"
+          required
+        />
+        <select class="form-control">
+          <option>Allmän fråga</option>
+          <option>Boka</option>
+          <option>Meny</option>
+        </select>
+        <textarea
+          rows="5"
+          name="projectsummary"
+          id="projectsummary"
+          class="form-control"
+          placeholder="Meddelande"
+          required
+        ></textarea>
+        <div class="text-center">
+          <a class="btn btn-primary page-button btn-lg" href="#" role="button"
+            >Läs Mer</a
+          >
+        </div>
+      </form>
+    </div>
+
+    <!--Footer-->
+
+    <footer class="container">
+      <div class="row">
+        <img src="../assets/logos/lrlogo1.jpg" class="mx-auto" alt="image" />
+      </div>
+      <div class="row justify-content-center">
+        <a href="about.html">Om Oss</a>
+        <a href="work.html">Jobba hos oss</a>
+      </div>
+      <div class="row justify-content-center">
+        <a href="https://www.facebook.com/langaraden" target="_blank"
+          ><i
+            class="fa fa-facebook-square social-media-logo"
+            aria-hidden="true"
+          ></i
+        ></a>
+        <a
+          href="https://www.instagram.com/restauranglangaraden/"
+          target="_blank"
+          ><i class="fa fa-instagram social-media-logo" aria-hidden="true"></i
+        ></a>
+      </div>
+      <div class="row justify-content-center">
+        <span>Velamsundsvägen 37 - 132 36 Saltsjö-boo</span>
+      </div>
+    </footer>
+    <script src="../buttons.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -28,8 +28,8 @@
     <button id="phone" onclick="myFunction()">
       <i class="fa fa-phone" aria-hidden="true"></i>
     </button>
-    <a href="tel:08-747 99 80">
-      <button id="phone1">08-747 99 80</button>
+    <a id="phone1" href="tel:087479980">
+      08-747 99 80
     </a>
     <!--NavBar-->
 
@@ -136,7 +136,7 @@
             Bara att lägga på grillen och mönstra. Eller värm i ugnen. Det är
             redan klart
           </p>
-          
+
           <p>Lågtempererad Timjanbakad biffrad</p>
 
           <p>eller</p>
@@ -153,7 +153,7 @@
           <h4>Dessert</h4>
           <p>Citrontartelette med bränd italiensk maräng och rårörda hallon</p>
           <h4>3 rätter 299 kr per person</h4>
-          <br>
+          <br />
           <h4>Barn</h4>
           <p><i>upp till 10 år</i></p>
           <p><strong>Varmrätt & Dessert</strong></p>
@@ -164,11 +164,12 @@
         <div class="col-sm-6">
           <form>
             <div class="form-group">
-              <label for="exampleFormControlInput1">Adress</label>
+              <label for="adress">Adress</label>
               <input
-                type="name"
+                type="text"
                 class="form-control"
                 placeholder="Gatuadress"
+                id="adress"
                 required
               />
             </div>
@@ -186,42 +187,45 @@
             </div>
             <br />
             <div class="form-group">
-              <label for="exampleFormControlInput1">E-post</label>
+              <label for="email">E-post</label>
               <input
                 type="email"
+                id="email"
                 class="form-control"
                 placeholder="E-postadress"
                 required
               />
             </div>
             <div class="form-group">
-              <label for="exampleFormControlInput1">Namn</label>
+              <label for="name">Namn</label>
               <input
-                type="name"
+                type="text"
+                id="name"
                 class="form-control"
                 placeholder="Fullständigt namn"
                 required
               />
             </div>
             <div class="form-group">
-              <label for="exampleFormControlInput1">Nummer</label>
+              <label for="number">Nummer</label>
               <input
                 type="text"
+                id="number"
                 class="form-control"
                 placeholder="Telefonnummer"
                 required
               />
             </div>
-            <label for="exampleFormControlInput1">Leveransdag</label>
+            <label for="deliveryDay">Leveransdag</label>
             <br />
             <div class="form-check form-check-inline">
               <input
                 class="form-check-input"
                 type="checkbox"
-                id="inlineCheckbox1"
+                id="deliveryDay"
                 value="option1"
               />
-              <label class="form-check-label" for="inlineCheckbox1"
+              <label class="form-check-label" for="inlineCheckbox2"
                 >Fredag</label
               >
             </div>
@@ -239,10 +243,11 @@
             <br />
             <br />
             <div class="form-group">
-              <label for="exampleFormControlInput1"
+              <label for="meat-delivery"
                 >Antal 3 rätter med köttvarmrätt á 299 kr pp.</label
               >
               <input
+                id="meat-delivery"
                 type="number"
                 class="form-control"
                 placeholder="0"
@@ -250,10 +255,11 @@
               />
             </div>
             <div class="form-group">
-              <label for="exampleFormControlInput1"
+              <label for="veg-delivery"
                 >Antal 3 rätter med vegetarisk varmrätt á 299 kr pp.
               </label>
               <input
+                id="veg-delivery"
                 type="number"
                 class="form-control"
                 placeholder="0"
@@ -261,10 +267,11 @@
               />
             </div>
             <div class="form-group">
-              <label for="exampleFormControlInput1"
+              <label for="child-meat-delivery"
                 >Antal Barnrätt med köttvarmrätt á 110 kr</label
               >
               <input
+                id="child-meat-delivery"
                 type="number"
                 class="form-control"
                 placeholder="0"
@@ -272,10 +279,11 @@
               />
             </div>
             <div class="form-group">
-              <label for="exampleFormControlInput1"
+              <label for="child-veg-delivery"
                 >Antal Barnrätt med vegetarisk varmrätt á 110 kr</label
               >
               <input
+                id="child-veg-delivery"
                 type="number"
                 class="form-control"
                 placeholder="0"
@@ -293,8 +301,7 @@
                 rows="3"
               ></textarea>
             </div>
-            <p>Totalsumma:</p>
-            <input type="text" name="total" id="total"/>
+
             <div class="text-center">
               <input
                 class="btn btn-primary page-button btn-lg"
@@ -310,7 +317,7 @@
 
     <footer class="container">
       <div class="row">
-        <img src="../assets/logos/lrlogo1.jpg" class="mx-auto" />
+        <img src="../assets/logos/lrlogo1.jpg" class="mx-auto" alt="image" />
       </div>
       <div class="row justify-content-center">
         <a href="about.html">Om Oss</a>
