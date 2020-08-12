@@ -23,6 +23,15 @@
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_6XvkA9j6l9zLzk67XuDM2");
+   })();
+</script>
   </head>
   <body>
     <button id="phone" onclick="myFunction()">
@@ -282,7 +291,7 @@
           <hr />
         </div>
       </div>
-      <form>
+      <form id="myForm">
         <input
           type="text"
           name="name"
@@ -293,7 +302,7 @@
         />
         <input
           type="email"
-          name="email"
+          name="emailaddress"
           id="emailadress"
           class="form-control"
           placeholder="E-post"
@@ -313,8 +322,8 @@
           required
         ></textarea>
         <div class="text-center">
-          <a class="btn btn-primary page-button btn-lg" href="#" role="button"
-            >Läs Mer</a
+          <a class="btn btn-primary page-button btn-lg" type="submit" role="button"
+            >Skicka</a
           >
         </div>
       </form>
@@ -348,6 +357,7 @@
       </div>
     </footer>
     <script src="../buttons.js"></script>
+    <script src="../sendEmail.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

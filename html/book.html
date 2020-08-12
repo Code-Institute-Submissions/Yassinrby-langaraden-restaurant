@@ -23,6 +23,15 @@
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
       crossorigin="anonymous"
     ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_6XvkA9j6l9zLzk67XuDM2");
+      })();
+    </script>
   </head>
   <body>
     <button id="phone" onclick="myFunction()">
@@ -91,10 +100,10 @@
       </div>
       <div class="row">
         <div class="col-md-6">
-          <form>
+          <form id="book-form">
             <div class="form-group">
               <label for="exampleFormControlSelect1">Vad vill du boka?</label>
-              <select class="form-control" id="exampleFormControlSelect1">
+              <select class="form-control" name="selectbooking" id="exampleFormControlSelect1">
                 <option>Bord</option>
                 <option>Evenemang</option>
                 <option>Möte</option>
@@ -103,6 +112,7 @@
             <div class="form-group">
               <label for="email">E-post</label>
               <input
+              name="from_email"
                 id="email"
                 type="email"
                 class="form-control"
@@ -113,6 +123,7 @@
             <div class="form-group">
               <label for="name">Namn</label>
               <input
+              name="from_name"
                 id="name"
                 type="text"
                 class="form-control"
@@ -123,6 +134,7 @@
             <div class="form-group">
               <label for="number">Nummer</label>
               <input
+              name="phone"
                 id="number"
                 type="number"
                 class="form-control"
@@ -133,6 +145,7 @@
             <div class="form-group">
               <label for="qty">Antal personer</label>
               <input
+              name="qty"
                 id="qty"
                 type="number"
                 class="form-control"
@@ -146,6 +159,7 @@
                 >Något du vill tillägga?</label
               >
               <textarea
+              name="message_html"
                 class="form-control"
                 id="exampleFormControlTextarea1"
                 rows="3"
@@ -214,6 +228,7 @@
     </footer>
     <script src="../buttons.js"></script>
     <script src="../api.js"></script>
+    <script src="../bookEmail.js"></script>
     <script
       defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRsVg0iP31aE62M02s-ieuEx1LB_P3Az8&callback=initMap"
