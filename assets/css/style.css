@@ -264,7 +264,16 @@ span {
 
 .line {
   text-decoration: line-through;
+  color: gray;
 }
+
+.highlight {
+    
+    border-left: 10px double black;
+    border-right: 10px double
+     black;
+}
+
 
 .menu-button {
   border: 1px solid black;
