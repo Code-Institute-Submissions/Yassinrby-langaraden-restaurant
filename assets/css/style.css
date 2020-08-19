@@ -262,6 +262,15 @@ span {
 
 /*-------Menu*/
 
+.dinner {
+    margin-top: 35px;
+}
+
+.active-btn {
+    background-color: #bebebe !important;
+    border: 3px solid black !important;
+}
+
 .line {
   text-decoration: line-through;
   color: gray;
@@ -293,7 +302,7 @@ span {
   background-color: whitesmoke;
   border: 20px solid transparent;
   border-image: url("../images/meuframe.png") 200 stretch;
-  height: 1200px;
+  height: 1250px;
   text-align: center;
 }
 
@@ -314,7 +323,7 @@ span {
   background-color: whitesmoke;
   border: 20px solid transparent;
   border-image: url("../images/meuframe.png") 200 stretch;
-  height: 1750px;
+  height: 1850px;
   text-align: center;
 }
 
