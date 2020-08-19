@@ -262,7 +262,10 @@ span {
 
 /*-------Menu*/
 
-.dinner {
+.dinner h2 {
+    margin-top: 35px;
+}
+.lunch h2 {
     margin-top: 35px;
 }
 
