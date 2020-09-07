@@ -408,3 +408,24 @@ span {
   height: 300px;
   width: 100%;
 }
+
+/*-------------------------------------------------------------------------Modal*/
+
+.spara {
+    background-color: #b29d6b;
+    border: none;
+}
+
+.spara:hover {
+    background-color: #bebebe; 
+}
+
+.spara:focus {
+    background-color: #bebebe;
+    border: none;
+}
+
+.spara:active {
+    background-color: #bebebe;
+    border: none;
+}
