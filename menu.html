@@ -116,7 +116,7 @@
               data-toggle="modal"
               data-target="#modalOne"
             >
-              Vegeterian
+              Vegetariskt
             </button>
 
             <button
@@ -151,7 +151,7 @@
         <p>You selected choice is stored until you next visit on the website! Press clear to return to default</p>
       </div>
       <div class="modal-footer">
-        <button type="button" data-dismiss="modal" class="btn btn-primary spara">Back to website</button>
+        <button  type="button" data-dismiss="modal" class="btn btn-primary spara">Back to website</button>
         <button onclick="clearStorage()" type="button" class="btn btn-secondary" data-dismiss="modal">Clear storage</button>
       </div>
     </div>
@@ -291,10 +291,70 @@
           </p>
           <h5>Anpassa menyn utefter dina behov:</h5>
           <div class="btn-group">
-            <button id="dinner-btn-veg" class="menu-button">Vegeterian</button>
-            <button id="dinner-btn-fish" class="menu-button">Fisk</button>
-            <button id="dinner-btn-meat" class="menu-button">Kött</button>
+            <button id="dinner-btn-veg" class="menu-button" data-toggle="modal"
+              data-target="#modalFour">Vegeterian</button>
+            <button id="dinner-btn-fish" class="menu-button" data-toggle="modal"
+              data-target="#modalFive">Fisk</button>
+            <button id="dinner-btn-meat" class="menu-button" data-toggle="modal"
+              data-target="#modalSix">Kött</button>
           </div>
+          <div id="modalFour" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>You selected choice is stored until you next visit on the website! Press clear to return to default</p>
+      </div>
+      <div class="modal-footer">
+        <button  type="button" data-dismiss="modal" class="btn btn-primary spara">Back to website</button>
+        <button onclick="clearStorage()" type="button" class="btn btn-secondary" data-dismiss="modal">Clear storage</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="modalFive" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>You selected choice is stored until you next visit on the website! Press clear to return to default</p>
+      </div>
+      <div class="modal-footer">
+        <button  type="button" data-dismiss="modal" class="btn btn-primary spara">Back to website</button>
+        <button onclick="clearStorage()" type="button" class="btn btn-secondary" data-dismiss="modal">Clear storage</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="modalSix" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>You selected choice is stored until you next visit on the website! Press clear to return to default</p>
+      </div>
+      <div class="modal-footer">
+        <button  type="button" data-dismiss="modal" class="btn btn-primary spara">Back to website</button>
+        <button onclick="clearStorage()" type="button" class="btn btn-secondary" data-dismiss="modal">Clear storage</button>
+      </div>
+    </div>
+  </div>
+</div>
           <p class="extra">
             HAR DU ALLERGIER ELLER FRÅGOR OM VÅRA INGREDIENSER, FRÅGA GÄRNA VÅR
             PERSONAL
