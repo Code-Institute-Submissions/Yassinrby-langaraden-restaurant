@@ -11,7 +11,12 @@ $(document).ready(function () {
   $("#lunch-btn-veg").click(function () {
     $(".veg-lunch").toggleClass("highlight");
     $(".fish-lunch, .meat-lunch").toggleClass("line");
+    localStorage.clear();
+    let currentMenu = localStorage.setItem('element', 'veg');
+    
   });
+    
+
 });
 
 $(document).ready(function(){
@@ -24,6 +29,9 @@ $(document).ready(function () {
   $("#lunch-btn-fish").click(function () {
     $(".fish-lunch").toggleClass("highlight");
     $(".veg-lunch, .meat-lunch").toggleClass("line");
+    localStorage.clear();
+    let currentMenu = localStorage.setItem('element', 'fish');
+    
   });
 });
 
@@ -37,6 +45,9 @@ $(document).ready(function () {
   $("#lunch-btn-meat").click(function () {
     $(".meat-lunch").toggleClass("highlight");
     $(".veg-lunch, .fish-lunch").toggleClass("line");
+    localStorage.clear();
+    let currentMenu = localStorage.setItem('element', 'meat');
+   
   });
 });
 
@@ -86,3 +97,25 @@ $(document).ready(function(){
         $(this).toggleClass("active-btn");
     });
 });
+
+// Local Storage
+
+
+if ((localStorage.getItem('element')) == ('veg')) {
+    $(".veg-lunch").toggleClass("highlight");
+    $(".fish-lunch, .meat-lunch").toggleClass("line");
+}
+
+if ((localStorage.getItem('element')) == ('fish')) {
+    $(".fish-lunch").toggleClass("highlight");
+    $(".veg-lunch, .meat-lunch").toggleClass("line");
+}
+
+if ((localStorage.getItem('element')) == ('meat')) {
+    $(".meat-lunch").toggleClass("highlight");
+    $(".fish-lunch, .veg-lunch").toggleClass("line");
+}
+
+function clearStorage() {
+    localStorage.clear();
+}

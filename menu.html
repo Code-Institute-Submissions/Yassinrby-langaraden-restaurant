@@ -123,7 +123,7 @@
               id="lunch-btn-fish"
               class="menu-button"
               data-toggle="modal"
-              data-target="#modalOne"
+              data-target="#modalTwo"
             >
               Fisk
             </button>
@@ -132,49 +132,78 @@
               id="lunch-btn-meat"
               class="menu-button"
               data-toggle="modal"
-              data-target="#modalOne"
+              data-target="#modalThree"
             >
               Kött
             </button>
           </div>
 
+<div id="modalOne" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>You selected choice is stored until you next visit on the website! Press clear to return to default</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" data-dismiss="modal" class="btn btn-primary spara">Back to website</button>
+        <button onclick="clearStorage()" type="button" class="btn btn-secondary" data-dismiss="modal">Clear storage</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modalTwo" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>You selected choice is stored until you next visit on the website! Press clear to return to default</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" data-dismiss="modal" class="btn btn-primary spara">Back to website</button>
+        <button onclick="clearStorage()" type="button" class="btn btn-secondary" data-dismiss="modal">Clear storage</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modalThree" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>You selected choice is stored until you next visit on the website! Press clear to return to default</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" data-dismiss="modal" class="btn btn-primary spara">Back to website</button>
+        <button onclick="clearStorage()" type="button" class="btn btn-secondary" data-dismiss="modal">Clear storage</button>
+      </div>
+    </div>
+  </div>
+</div>
+
           <p class="extra">
             HAR DU ALLERGIER ELLER FRÅGOR OM VÅRA INGREDIENSER, FRÅGA GÄRNA VÅR
             PERSONAL
           </p>
-          <div id="modalOne" class="modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">Spara ändringar</h5>
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <p>Spara vald meny till nästa gång genom att klicka Spara.</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-primary spara">
-                    Spara
-                  </button>
-                  <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-dismiss="modal"
-                  >
-                    Stäng
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="lunch-menu text-center">
+          
+          <div id="lunch-container" class="lunch-menu text-center">
             <h5>Förrätter</h5>
             <div class="veg-lunch">
               <p class="title">
