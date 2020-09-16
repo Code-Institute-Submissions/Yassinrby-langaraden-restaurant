@@ -11,7 +11,7 @@ $(document).ready(function () {
   $("#lunch-btn-veg").click(function () {
      $(".fish-lunch, .meat-lunch").removeClass("highlight");
      $("#lunch-btn-meat, #lunch-btn-fish").removeClass("active-btn")
-     $(".veg-lunch").removeClass("line")
+     $(".veg-lunch").removeClass("line");
      $(".veg-lunch").addClass("highlight");
     $(".fish-lunch, .meat-lunch").addClass("line");
     // $(".veg-lunch").toggleClass("highlight");
@@ -34,7 +34,7 @@ $(document).ready(function () {
   $("#lunch-btn-fish").click(function () {
    $(".veg-lunch, .meat-lunch").removeClass("highlight");
    $("#lunch-btn-meat, #lunch-btn-veg").removeClass("active-btn")
-     $(".fish-lunch").removeClass("line")
+     $(".fish-lunch").removeClass("line");
     $(".fish-lunch").addClass("highlight");
     $(".veg-lunch, .meat-lunch").addClass("line");
     // $(".fish-lunch").toggleClass("highlight");
@@ -55,7 +55,7 @@ $(document).ready(function () {
   $("#lunch-btn-meat").click(function () {
       $(".veg-lunch, .fish-lunch").removeClass("highlight");
       $("#lunch-btn-veg, #lunch-btn-fish").removeClass("active-btn")
-     $(".meat-lunch").removeClass("line")
+     $(".meat-lunch").removeClass("line");
       $(".meat-lunch").addClass("highlight");
       $(".veg-lunch, .fish-lunch").addClass("line");
     // $(".meat-lunch").toggleClass("highlight");
@@ -89,7 +89,7 @@ $(document).ready(function () {
   $("#dinner-btn-veg").click(function () {
       $(".fish-dinner, .meat-dinner").removeClass("highlight");
       $("#dinner-btn-fish, #dinner-btn-meat").removeClass("active-btn");
-      $(".veg-dinner").removeClass("line")
+      $(".veg-dinner").removeClass("line");
       $(".veg-dinner").addClass("highlight");
       $(".fish-dinner, .meat-dinner").addClass("line");
       localStorage.clear();
@@ -108,7 +108,7 @@ $(document).ready(function () {
   $("#dinner-btn-fish").click(function () {
       $(".veg-dinner, .meat-dinner").removeClass("highlight");
       $("#dinner-btn-meat, #dinner-btn-veg").removeClass("active-btn");
-      $(".fish-dinner").removeClass("line")
+      $(".fish-dinner").removeClass("line");
       $(".fish-dinner").addClass("highlight");
       $(".veg-dinner, .meat-dinner").addClass("line");
       localStorage.clear();
@@ -184,3 +184,23 @@ function clearStorage() {
     $("#lunch-btn-fish, #lunch-btn-veg, #lunch-btn-meat, #dinner-btn-fish, #dinner-btn-veg, #dinner-btn-meat").removeClass("active-btn");
     localStorage.clear();
 }
+
+
+//Google maps API
+
+function initMap() {
+  var langaraden = { lat: 59.34728, lng: 18.324622 };
+
+  var map = new google.maps.Map(document.getElementById("map"), {zoom: 15, center: langaraden,
+  });
+
+  var marker = new google.maps.Marker({ 
+      postition: langaraden, 
+      map: map,
+    });
+
+    marker.setMap(map);
+
+}
+
+
