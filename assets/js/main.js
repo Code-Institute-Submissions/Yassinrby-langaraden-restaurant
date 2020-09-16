@@ -10,7 +10,7 @@ function myFunction() {
 $(document).ready(function () {
   $("#lunch-btn-veg").click(function () {
      $(".fish-lunch, .meat-lunch").removeClass("highlight");
-     $("#lunch-btn-meat, #lunch-btn-fish").removeClass("active-btn")
+     $("#lunch-btn-meat, #lunch-btn-fish").removeClass("active-btn");
      $(".veg-lunch").removeClass("line");
      $(".veg-lunch").addClass("highlight");
     $(".fish-lunch, .meat-lunch").addClass("line");
