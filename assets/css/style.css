@@ -369,6 +369,24 @@ span {
 
 .submit-btn {
   background-color: #b29d6b;
+  color: white;
+  border: none;
+  font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    width: 100px;
+    margin: 30px 0;
+}
+
+.submit-btn:hover {
+    background-color: white;
+    color:  #b29d6b;
+}
+
+.submit-btn:focus {
+    background-color: white;
+    color:  #b29d6b;
+    border: none;
 }
 
 .find {
