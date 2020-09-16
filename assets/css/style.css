@@ -62,7 +62,7 @@ p {
 }
 
 button {
-    margin: 30px 0;
+  margin: 30px 0;
 }
 /*-------------------------------------------------------------HOMEAGE*/
 
@@ -267,15 +267,15 @@ span {
 /*-------Menu*/
 
 .dinner h2 {
-    margin-top: 35px;
+  margin-top: 35px;
 }
 .lunch h2 {
-    margin-top: 35px;
+  margin-top: 35px;
 }
 
 .active-btn {
-    background-color: #bebebe !important;
-    border: 1px solid black !important;
+  background-color: #bebebe !important;
+  border: 1px solid black !important;
 }
 
 .line {
@@ -285,12 +285,11 @@ span {
 }
 
 .highlight {
-    text-transform: uppercase;
-    border-bottom: 1px dotted;
-    border-top: 1px dotted;
-    background-color:#b29d6b
+  text-transform: uppercase;
+  border-bottom: 1px dotted;
+  border-top: 1px dotted;
+  background-color: #b29d6b;
 }
-
 
 .menu-button {
   border: 1px solid black;
@@ -348,7 +347,6 @@ span {
 }
 
 .title {
-  font-weight: 1000;
   margin-top: 20px;
   font-size: 20px;
 }
@@ -376,21 +374,21 @@ span {
   color: white;
   border: none;
   font-size: 1.25rem;
-    line-height: 1.5;
-    border-radius: .3rem;
-    width: 100px;
-    margin: 30px 0;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+  width: 100px;
+  margin: 30px 0;
 }
 
 .submit-btn:hover {
-    background-color: white;
-    color:  #b29d6b;
+  background-color: white;
+  color: #b29d6b;
 }
 
 .submit-btn:focus {
-    background-color: white;
-    color:  #b29d6b;
-    border: none;
+  background-color: white;
+  color: #b29d6b;
+  border: none;
 }
 
 .find {
@@ -435,20 +433,20 @@ span {
 /*-------------------------------------------------------------------------Modal*/
 
 .spara {
-    background-color: #b29d6b;
-    border: none;
+  background-color: #b29d6b;
+  border: none;
 }
 
 .spara:hover {
-    background-color: #bebebe; 
+  background-color: #bebebe;
 }
 
 .spara:focus {
-    background-color: #bebebe;
-    border: none;
+  background-color: #bebebe;
+  border: none;
 }
 
 .spara:active {
-    background-color: #bebebe;
-    border: none;
+  background-color: #bebebe;
+  border: none;
 }
