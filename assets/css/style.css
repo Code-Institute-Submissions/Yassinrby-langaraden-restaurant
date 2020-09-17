@@ -309,8 +309,9 @@ span {
   background-color: whitesmoke;
   border: 20px solid transparent;
   border-image: url("../images/meuframe.png") 200 stretch;
-  height: 1250px;
+  height: 1350px;
   text-align: center;
+  
 }
 
 .delivery-menu {
@@ -330,8 +331,9 @@ span {
   background-color: whitesmoke;
   border: 20px solid transparent;
   border-image: url("../images/meuframe.png") 200 stretch;
-  height: 1850px;
+  height: 2000px;
   text-align: center;
+  
 }
 
 .dinner-menu h5 {
