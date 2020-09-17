@@ -5,9 +5,14 @@
 
 <h1 align="center">Official website for restaurant Welamsund - Långa Raden in Stockholm, Sweden</h1>
 
+
 <p align="center">
 This is the official website where you can check the menus, ingredients, see reviews and book a table or bigger events. 
 The website is built with HTML, CSS and JavaScript. 
+</p>
+
+<p align="center" style="color:red;">
+The website is not live yet
 </p>
 
 <br>
@@ -19,6 +24,7 @@ The website is built with HTML, CSS and JavaScript.
 1. A soon to be married couple visits the website to see how the place looks and the menu.
 2. A family want to eat out but one of the children are vegiterian and visits the website to see what they can choose from in the menu.
 3. A group of friends want to have some drinks near the ocean and visits the website to get to know the location and book a table.
+4. A returning customer eats only vegiterian food and visits the website for checking the weekly menu. Thanks to localStorage the customer do not need to select his preferences everytime visiting the website.
 
 ## The website users is:
 
@@ -52,7 +58,7 @@ The website conatains 7 different pages. First is home page with slideshow galle
 ## 2. Menu page
 
 - A fixed navigation that links to the different pages and social media links
-- A lunch and dinner menu that are interactive 
+- A lunch and dinner menu that are interactive and save preferences in localStorage
 - Buttons where you can open different event menus in external pdf file for downloading.
 - A link to the Home delivery page
 - A interactive phone button that follows while scrolling down the page
@@ -91,7 +97,7 @@ The website conatains 7 different pages. First is home page with slideshow galle
 **_Features Left to Implement_**
 
 ## 1. Google maps API
- - Since google needs creditcard details and the website is for a existing company I will wait until the company want to publish their new website before putting any creditcard details.
+ - Google maps window in contact.html and book.html
 
 ## 2. EmailJS 
 - Need to change the emailadress that will recieve email from the website forms
@@ -194,4 +200,5 @@ I recieved inspitation from following websites:
 
 1. **[Villa Boberg](https://www.villaboberg.se/)**
 
-
+**Previous website**
+[www.langaraden.se](https://www.langaraden.se)
