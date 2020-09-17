@@ -26,7 +26,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 	$("#lunch-btn-fish").click(function() {
 		$(".veg-lunch, .meat-lunch").removeClass("highlight");
-		$("#lunch-btn-meat, #lunch-btn-veg").removeClass("active-btn")
+		$("#lunch-btn-meat, #lunch-btn-veg").removeClass("active-btn");
 		$(".fish-lunch").removeClass("line");
 		$(".fish-lunch").addClass("highlight");
 		$(".veg-lunch, .meat-lunch").addClass("line");
@@ -41,7 +41,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 	$("#lunch-btn-meat").click(function() {
 		$(".veg-lunch, .fish-lunch").removeClass("highlight");
-		$("#lunch-btn-veg, #lunch-btn-fish").removeClass("active-btn")
+		$("#lunch-btn-veg, #lunch-btn-fish").removeClass("active-btn");
 		$(".meat-lunch").removeClass("line");
 		$(".meat-lunch").addClass("highlight");
 		$(".veg-lunch, .fish-lunch").addClass("line");
@@ -87,7 +87,7 @@ $(document).ready(function() {
 	$("#dinner-btn-meat").click(function() {
 		$(".veg-dinner, .fish-dinner").removeClass("highlight");
 		$("#dinner-btn-fish, #dinner-btn-veg").removeClass("active-btn");
-		$(".meat-dinner").removeClass("line")
+		$(".meat-dinner").removeClass("line");
 		$(".meat-dinner").addClass("highlight");
 		$(".veg-dinner, .fish-dinner").addClass("line");
 		localStorage.clear();

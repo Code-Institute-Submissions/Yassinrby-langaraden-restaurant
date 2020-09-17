@@ -138,7 +138,7 @@ The website conatains 7 different pages. First is home page with slideshow galle
 # **Testing**
 
 **Code validation**
-The HTML, CSS and JS code is validated by **[W3C](https://validator.w3.org/)**, **[W3C](https://jigsaw.w3.org/css-validator/)** and **[PiliApp](https://sv.piliapp.com/javascript-validator/)**
+The HTML, CSS and JS code is validated by **[W3C](https://validator.w3.org/)**, **[W3C](https://jigsaw.w3.org/css-validator/)** and **[jshint](https://jshint.com/)**
 
 **Different devices**
 The Webiste works on all devices (rotaded or not).
