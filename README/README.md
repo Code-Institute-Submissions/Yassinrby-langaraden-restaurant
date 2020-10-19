@@ -108,7 +108,7 @@ The website conatains 7 different pages. First is home page with slideshow galle
 # **Technologies Used**
 
 **[Balsamiq](https://www.Balsamiq.com)**
-- Used Balsamiq as wirefram for both desktop and mobile device. Since my free trial is over I cannot share the files
+- Used Balsamiq as wirefram for both desktop and mobile device. [See wireframe for desktop](../README/ms2desktop.pdf) / [Smartphone](../README/ms2mobile.pdf).
 
 **[CSS](https://www.w3.org/Style/CSS/Overview.en.html)**
 - CSS was used to costumize HTML and Bootstrap.
